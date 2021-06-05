@@ -1,0 +1,51 @@
+<!-- Que: what is responsive design?
+Ans: 1.Endless new resolutionand devices are difficult to support separetely for wb developer.
+     2. responsive design is a way for web developerto make his website adapt to all the devices and resolution.
+     3.responsive design is a necessity and not a luxury anymore. -->
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+         <meta charset="UTF-8">
+         <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>SIZE UNIT</title>
+         <style>
+             html{
+                 font-size: 25px;
+
+             }
+             .container{
+                 width: 400px;
+                 height: 300px; 
+                 /* height: 100vh; vh- view port height 
+                 width:100vw;   vw-view port width */
+                 font-size: 10px;
+                 border: 2px solid red;
+                
+             }
+             h1{
+                 text-align: center;
+              }
+              #first{
+
+                /* font-size: 3em; em mtlb 10 times of parent size   
+                padding: 3em; */
+                background-color: violet
+                ;
+
+              }
+              #second{
+                 /* font-size: 3rem;
+                   padding: 3rem;/* compreshensive guide to rem and em  */
+              background-color: violet;
+              }
+         </style>
+     </head>
+     <body>
+         <div class="container">
+            <h1 id="first">this is first heading</h1>
+            <h1 id="second">this is second heading</h1>
+            <h1 id="third">this is third heading</h1>
+         </div>
+     </body>
+     </html>

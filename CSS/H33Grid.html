@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS GRID tutorial</title>
+    <style>
+      .container{
+          display: grid;/* abbh contain ek grid bann gya*/
+          /* grid-template-columns: 200px 100px 100px; */
+          /* grid-template-columns: 300px auto auto; */
+          /* grid-template-columns: 1fr 4fr 1fr; it will devided in ratio of screen */
+          grid-template-columns: repeat(5,auto);
+         /*  grid-gap: 1rem; */
+        
+
+      }
+      .item{
+          /* height: 100px; */
+          /* width: 100px; */
+          background-color: blueviolet;
+          border: 2px solid black;
+          margin: 3px;
+          padding: 15px 5px;
+      }
+    </style>
+</head>
+<body>
+    <!-- it is a display property  in 2D table form-->
+    <div class="container">
+        <div class="item">this is item-0</div>
+        <div class="item">this is item-1</div>
+        <div class="item">this is item-2</div>
+        <div class="item">this is item-3</div>
+        <div class="item">this is item-4</div>
+        <div class="item">this is item-5</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-7</div>
+        <div class="item">this is item-8</div>
+        <div class="item">this is item-9</div>
+        <div class="item">this is item-10</div>
+        <div class="item">this is item-11</div>
+        <div class="item">this is item-12</div>
+        <div class="item">this is item-13</div>
+        <div class="item">this is item-14</div>
+        <div class="item">this is item-15</div>
+        <div class="item">this is item-16</div>
+        <div class="item">this is item-17</div>
+        <div class="item">this is item-18</div>
+        <div class="item">this is item-19</div>
+        <div class="item">this is item-20</div>
+
+    </div>
+    
+
+</body>
+</html>

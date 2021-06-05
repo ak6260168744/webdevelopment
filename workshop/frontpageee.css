@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(/img/img3.png) no-repeat;
+    background-size: cover;
+}
+.container{
+    border: 10px solid white;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    /* padding: 49px 30px; */
+}
+.container h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 5px solid violet;
+    margin-bottom: 25px ;
+    padding: 13px 0px;
+}
+.box{
+    width: 100%;
+    border:2px solid purple;
+    
+}
+.box input{
+    width: 75%;
+    border:none;
+    font-size:20px ;
+    margin: 2px 30px;
+    outline: none;
+    color: white;
+}

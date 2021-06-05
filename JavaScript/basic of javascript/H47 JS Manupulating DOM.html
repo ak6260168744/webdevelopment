@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulating DOM</title>
+</head>
+<body>
+    
+    <div id="main" class="container">
+        <ul id=nav>
+            <li id="anoop">Home</li>
+            <li id="kumar">About us</li>
+            <li>Contact us</li>
+            <li>Services</li>
+            <li>Blog</li>
+        </ul>
+    </div>
+    <script>
+        // getElementById,getElementByName,querySelector inn teeno ko wepeon bana ke javscript istamal karoo
+
+        let main=document.getElementById('main');
+        console.log(main);
+        let nav=document.getElementById('nav');
+        console.log(nav);
+        let anoop=document.getElementById('anoop');
+        console.log(anoop);
+
+        // let sel = document.querySelector('#nav');
+        // console.log("selctor returns ",sel);
+
+        let sel = document.querySelectorAll('#nav>li');
+        console.log("selctor returns ",sel);
+
+        // ese hum DOM ko manipulate kar sakte hein 
+    </script>
+</body>
+</html>

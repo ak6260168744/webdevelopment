@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript String Function</title>
+</head>
+<body>
+ 
+
+<script>
+     
+   var str="This is a string";
+   console.log(str);
+
+   //first occurence of a substring
+   //indexof()
+   var position =str.indexOf('is');
+   console.log(position);
+   
+   //  last occurence of a substring
+   //lastIndexof()
+   position=str.lastIndexOf('is');
+   console.log(position);
+
+   //substring from a string
+   
+   //slice()
+   var substr1 =str.slice(1,6);
+   
+   //substring()
+   var substr1 =str.substring(1,7);
+   
+   //substr()
+   var substr1 =str.substr(1,6);
+   console.log(substr1);
+
+   //relace()
+   var replaced = str.replace('string','harry');
+   console.log(str);
+   console.log(replaced);
+
+   //toupperCase() ,toLowerCase()
+   console.log(str.toUpperCase());
+   console.log(str.toLowerCase());
+   
+   //concat()
+   var newstring=str.concat(' New Strng');
+   console.log(newstring);
+
+   //trim()
+   var strWithWhiteSpaces = "   this   contains        whitespaces    ";
+   console.log(strWithWhiteSpaces);
+   console.log(strWithWhiteSpaces.trim()); //starting spaces and ending spaces ko trim mtlb haata deta hein. 
+
+   //charAt()
+   var char2= str.charAt(2);
+   console.log(char2);
+
+
+
+</script>
+</body>
+</html>

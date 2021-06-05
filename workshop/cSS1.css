@@ -1,0 +1,17 @@
+/* Selector hum isliye use karte h ki kaha humhe change karna h like p{ color: blue; }*/
+/* + Types of css:
+  1. inline css  : css is added to the elements directly using style attribute.
+  2. internal css: css is kept inside the head tags in <style> tags.
+  3. external css: css is kept separately inside a .css style sheet. 
+ 
+   + Types of basic css selectors:
+  1. CSS element Selector
+  2. CSS id Selector 
+  3. CSS class Selector 
+  4. The CSS grouping selector  
+  */
+ 
+ p{
+     color: black;
+     background-color: burlywood;
+ }

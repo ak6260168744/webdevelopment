@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSBCreack Exam</title>
+    <style>
+         body{
+        background-color: black;
+        color:white;
+
+    }
+    header::before{
+        content:"";
+        background-image: url(/img3.png);
+        position:absolute;
+        top: 0;
+        left:0;
+         opacity:0.5; /* image ko light bana deta hein  */
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+    }
+
+    .navigation{
+        display: flex;
+    }
+    li{
+    list-style: none;
+    padding: 34px 24px;
+    flex-direction: column;
+    margin:-19px 1px;
+    position: relative;
+    left: 285px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    }
+    li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    section{ 
+
+margin: 3px 23px;
+display:flex;
+padding: 82px 216px;
+flex-direction: column;
+/* border: 2px solid red; */
+align-items: center;
+justify-content: center;
+/* background-color: turquoise; */
+/* background-image: url(/img3.png); */
+}
+#btn1{ 
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    margin: 7px 9px;
+    background-color: rgb(206, 13, 13);
+    color: white;
+    padding: 5px 14px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.navbar li a:hover, .navbar li a.active{
+        text-decoration: underline;
+        color:rgb(137 24 240);
+        }
+
+
+#btn2{ 
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    margin: 7px 9px;
+    background-color: rgb(16, 53, 216);
+    color: white;
+    padding: 5px 17px;
+    border: 3px solid grey;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+#logo{ font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+   }
+    </style>
+</head>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            
+            <ul class="navigation">
+                <div  id="logo">SSB Crack <br> Exam</div> 
+                <li class="item"><a href="#">HOME</a></li>
+                <li class="item"><a href="#">COURSE</a></li>
+                <li class="item"><a href="#">LEARNING APP</a></li>
+                <li class="item"><a href="#">BLOG</a></li>
+                <li class="item"><a href="#">ABOUT US</a></li>
+                <li class="item"><a href="#">CONTACT US</a></li>
+                <li class="item" id="btn1" ><a href="#">SIGNUP</a></li>
+                <li class="item" id="btn2"><a href="#">LOGIN</a></li>
+                
+            </ul>
+        </nav>
+        <section>
+            <h3>Welcome to Coding WorldS</h3>
+       <p>Love is war</p>
+        </section>
+    </header>
+</body>
+</html>

@@ -1,0 +1,15 @@
+body{
+    background-color: royalblue;
+}
+.logo{
+    
+    display:flex;
+    flex-direction: column;
+    width: 10%;
+    height: 10%;
+
+}
+img{
+     border-radius: 2px solid red;
+     
+}

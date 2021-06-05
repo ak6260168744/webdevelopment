@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Transform</title>
+    <style>
+        *{
+            margin: 0px;
+            padding:0px;
+        }
+        .container{
+            height: 80vh;
+            background-color: yellowgreen;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+     .box{
+         display: flex;
+         background-color: violet;
+         /* background-image: url(/img5.png); */
+         /* background-position:0vh 0vw; */
+         border: 2px solid red ;
+         border-radius: 50%;
+         width: 200px;
+         height:200px;
+         justify-content: center;
+         align-items:center ;
+         /* margin: 8px; */
+         /* transform: rotate(45deg); */
+         transition: all 0.5s ease-in-out;
+
+     }
+     .box:hover{
+         /* these are some awesome effects use it   */
+         transform: rotate(360deg);
+         /* transform: skew(45deg); */
+         /* transform: scale(2); */
+         /* transform: translateX(123px); isske help se move kar sakte h hum */
+         transform: translatex(123px)
+     }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            this is a box
+        </div>
+        <!-- <div class="box">
+            this is a box 2
+        </div> -->
+    </div>
+</body>
+</html>

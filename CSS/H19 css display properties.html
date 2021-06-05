@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Display property</title>
+    <style>
+        body{
+            height:10000px;
+        }
+        header{
+            margin: auto;
+            border: 2px solid saddlebrown;
+            position: sticky;
+            top: 0;
+            
+            
+        }
+img{   margin: auto;
+    width: 34px;
+    display: block;
+}
+h3{  
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+
+}
+.box{
+    border:4px solid saddlebrown;
+    background-color: gray;
+    margin: 4px 0px;
+    padding: 23px;
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.container{
+    /* position:fixed; */
+    display: flex;
+    height:500px;
+    overflow: auto;
+    width: 1200px;
+}
+    </style>
+</head>
+<body>
+    <header class="top">
+        <img src="https://lh3.googleusercontent.com/ogw/ADGmqu8KkZhAqsbaW5HicviylLUYNjjHuoH9f3M9Vjgo2A=s32-c-mo"  alt="" class="">
+        <h3>Welcome to Anoop's blog</h3>
+    </header>
+    <div class="container">
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate eaque culpa consequuntur? Soluta dignissimos explicabo eos deleniti praesentium id, incidunt aut vel natus labore quisquam ea veritatis ullam nemo.</p>
+    </div>
+    <div class="container">
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate eaque culpa consequuntur? Soluta dignissimos explicabo eos deleniti praesentium id, incidunt aut vel natus labore quisquam ea veritatis ullam nemo.</p>
+    </div>
+    <div class="container">
+        <div class="box">
+        <h4 class="heading">Heading</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde voluptate eaque culpa consequuntur? Soluta dignissimos explicabo eos deleniti praesentium id, incidunt aut vel natus labore quisquam ea veritatis ullam nemo.</p>
+    </div>
+    </div>
+</body>
+</html>

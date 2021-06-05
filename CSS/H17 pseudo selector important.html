@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo selector and more designing</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: seashell;
+            padding: 34px;
+            margin: 34px auto;
+            width: 666px;
+
+        }
+        a{
+            text-decoration: none;
+            color: black ;
+        }
+        a:hover{
+            color: black;
+            background-color: blanchedalmond;
+        }
+        a:visited{
+            color: burlywood;
+        }
+        a:active{
+            background-color: cadetblue;
+        }
+       .btn{
+           background-color: rgb(53, 220, 20);
+           padding: 6px;
+           border: none;
+           cursor: pointer;
+           font-size: 13px;
+       }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>This is my Heading</h3>
+        <p>f the handler is assigned using an HTML-attribute then the browser reads it, creates a new function from the attribute content and writes it to the DOM property. So this way is actually the same as the previous one.</p>
+        <a href="google.com" class="btn">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+    
+</body>
+</html>

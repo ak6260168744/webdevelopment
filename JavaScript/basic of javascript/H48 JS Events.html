@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events in javascript</title>
+</head>
+<style>
+#btn{
+    padding: 10px 14px;
+    color: white;
+    background-color:cadetblue ;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+}
+</style>
+<body>
+    <!-- Browser events:-
+    click
+    contextmenu
+    mouseover/mouseout
+    mousedown/mouseup
+    mousemove
+
+    submit
+    focus
+
+    DOMContentLoaded
+
+    transistionend -->
+   
+    <div class="container">
+        <p id="para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iste, sequi? Quaerat ut minima, vero autem ullam quos, tempora rerum perspiciatis inventore non fuga repellat error? Amet debitis accusamus dignissimos officia iure illum modi et dolor tempore necessitatibus exercitationem suscipit dolores doloremque eum explicabo dolore temporibus inventore fugit delectus, reiciendis eveniet. Est perspiciatis eaque deserunt sunt necessitatibus dolorum ratione? Dignissimos ipsam quidem doloremque molestiae aperiam suscipit mollitia ullam itaque laborum ipsum earum laudantium eos sed possimus, perspiciatis non! Enim neque blanditiis amet ipsum ab. Architecto voluptatibus dignissimos voluptatem molestias, saepe veritatis ab quisquam quas dolore necessitatibus possimus esse accusantium aut molestiae quibusdam. Minima voluptate distinctio unde hic et. Quis voluptates omnis minus laborum ratione eaque eius cupiditate pariatur accusantium sed, impedit voluptas? Vitae illum blanditiis quo mollitia porro nulla, magnam dolore similique quasi, sit animi! Sit deserunt sed minus! Voluptatem minima ad, ullam rem ex sunt iure, illo nihil quae quam aut laborum est repudiandae fugit vero? Sed doloremque fugit inventore nulla. Commodi, mollitia possimus quo impedit harum pariatur temporibus soluta vel. Corrupti temporibus fugit tenetur. Atque fugiat, suscipit nobis ea dolorum deserunt mollitia amet distinctio, eos tempora pariatur neque reprehenderit rerum quam magnam aliquam similique veniam nihil, natus quasi corrupti rem molestiae ex. Quasi rem beatae amet nam iste illum. Nulla facere voluptate laboriosam aliquam porro eligendi excepturi, omnis molestias facilis reprehenderit? Velit obcaecati repellat harum atque dignissimos praesentium? Ratione quisquam numquam porro expedita.</p>
+    </div>
+    <button id="btn" onclick="togglehide()">Show/Hide</button>
+    <script>
+
+    function togglehide(){
+       let btn =document.getElementById('btn');
+    let para =document.getElementById('para');
+    
+    // para.style.display = 'none';
+    
+    //show aur hide ka code
+    if(para.style.display != 'none'){
+    para.style.display='none';
+    }
+    else{
+        para.style.display='block';
+    }
+
+}
+</script>
+</body>
+</html>

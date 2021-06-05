@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo</title>
+    <style>
+        
+        .navbar::before{
+      content: "";
+      background-color: black;
+      position:absolute;
+      height: 100%;
+      width: 100%;
+      z-index:-1;
+      opacity: 0.4;
+}
+.navbar{ 
+    
+    position: relative;
+    display: flex;
+    margin:-8px;
+    align-items: center;
+    font-family: 'Yatra One', cursive;
+}
+    .im{
+        width: 75px;
+    height: 86px;
+        border-radius: 50%;
+    }
+
+    ul{
+        display: flex;
+        
+        /* padding: 27px 61px; */
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+    ul li{
+        
+        font-size: 18px;
+        display: flex;
+        
+        padding: 8px 35px;
+    /* background-color: rgb(16, 145, 117); */
+    margin: 14px;
+    border-radius: 18px;
+        /* border: 2px solid red; */
+    }
+    ul li a{
+        text-transform: uppercase;
+        color: white;
+        text-decoration: none;
+    }
+    ul li:hover{
+        
+        background-color: rgb(16, 145, 117); ;
+        cursor: pointer;
+    }
+    .ko{
+        display: flex;
+        display: flex;
+    margin: 24px;
+    padding: 0px 58px;
+    }
+    .btn{
+        background-color: rgb(194, 16, 120);
+        color: white;
+        font-weight: bold;
+        display: flex;
+        padding: 5px 34px;
+        margin: 16px;
+        /* border: 2px solid red; */
+        
+    }
+    
+    .cool::before{ 
+    content: "";
+    position: absolute;
+    background-color: rgb(6, 7, 105);
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.85;
+    
+}
+
+.cool{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 197px;
+    margin: 8px;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+    <div class="logo"><img src="/Screenshot (7).png" alt="mr clover" class="im"></div>
+    <ul class="ok">
+        <li class="top"><a href="#">home</a></li>
+        <li class="top"><a href="#">blog</a></li>
+        <li class="top"><a href="#">about us</a></li>
+        <li class="top"><a href="#">contact us</a></li>
+        
+    </ul>
+    <div class="ko"><button class="btn">login</button>
+        <button class="btn">signin</button></div>
+       
+    </nav>
+    <section class="cool">
+        <div class="sexy">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit, accusamus iure recusandae nobis nisi ullam libero quaerat, est id facere doloribus, asperiores dolor quis fugit dignissimos totam accusantium consectetur officiis.</div>
+        <div class="sexy">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus sequi aliquid culpa quisquam illum ipsam incidunt delectus cum ea magnam recusandae itaque, eligendi officiis assumenda molestiae unde ut! Assumenda, aliquid?</div>
+    </section>
+
+</body>
+</html>

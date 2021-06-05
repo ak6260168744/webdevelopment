@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute and nth child psuedo selector</title>
+<style>
+    .container{
+        margin:34px 23px;
+        display: block;
+        width: 233px;
+        margin: auto;
+
+    }
+    
+    
+input{
+    display: block;
+    text-align: center;
+    
+}
+/* input[type='text']{
+    padding:23px;
+    border: 2px solid red;
+} */
+input[type='submit'] {
+
+    position: relative;
+    top: 12%;
+    left: 24%;
+}
+a[target]{
+    font-size: 44px;
+    color: lightcoral;
+}
+a[target='self']{
+    font-size: 44px;
+    color:lightseagreen;
+}
+/* li:nth-child(2n+1){
+    color:maroon;
+}  */
+
+/* li:nth child(odd){
+    background-color:red;
+    } */
+
+
+</style>
+</head>
+<body>
+    <div class="container">
+       <h1><a href="http://google.com" target="blank">Go to Google</a></h1>
+       <h1><a href="http://facebook.com" target="self">Go to facebook</a></h1>
+        <form action="" class="form-control">
+            <input type="text" placeholder="enter your name">
+            <input type="email" placeholder="enter your email">
+            <input type="password" placeholder="enter your password">
+            <a href="#"><input type="submit" value="submit" ></a>
+        </form>
+        <ul>
+            <li class="item" id="item1">item1</li>
+            <li class="item" id="item2">item2</li>
+            <li class="item" id="item3">item3</li>
+            <li class="item" id="item4">item4</li>
+            <li class="item" id="item5">item5</li>
+        </ul>
+    </div>
+</body>
+</html>

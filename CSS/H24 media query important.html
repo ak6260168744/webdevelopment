@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <style>
+        .box{
+            font-size: 60px;
+            text-align: center;
+            background-color: rgb(0, 132, 255);
+            color: white;
+            display: none;
+        }
+        @media(max-width:600px){
+            #box1{
+                display: block;
+                background-color:rgb(3, 40, 75);
+            }
+        }
+        @media(max-width:500px) and (min-width: 300px)
+        {
+            #box2{
+                display: block;
+                background-color: tomato;
+            }
+        }
+        @media(max-width:800px){
+            #box4{
+                display: block;
+                background-color:rgb(11, 10, 53);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">my name is iphone</div>
+    <div class="box" id="box2">my nmae is samsung</div>
+    <div class="box" id="box3">my name is hero</div>
+    <div class="box" id="box4">my name is bakugo</div>
+</body>
+</html>

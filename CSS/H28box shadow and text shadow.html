@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and text shadow</title>
+    <style>
+    .container{
+        display:flex;
+        /* border:2px solid red */
+    }
+    .card{
+        padding: 23px 12px;
+        margin: 23px 12px;
+        /* border:2px solid red; */
+        background-color: salmon;
+        /* box-shadow:offset-x offset-y color; */
+        /* box-shadow:offset-x offset-y  blur-radius color; */
+        /* box-shadow:offset-x offset-y blur-raduis spred-radius color; */
+        box-shadow: -10px -12px sandybrown; 
+        /* box-shadow: 10px -12px 12px sandybrown;    */
+        /* box-shadow: inset 10px 58px turquoise; */
+        /* inset: andar ki taraf shadow badaa deta hein */
+        /* multiple shadows:box-shadow: 3px6px red, 5px 4px green, */
+        
+    }
+    .card h1{
+        /* text-shadow: 3px 4px 12px rgb(8, 8, 75); */
+    }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="card" id="card1">
+            <h1>ANOOP KUMAR SHARMA</h1>
+          <h2>Card 1</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui nam nemo tempore, esse voluptates porro ipsum commodi at minima perspiciatis maxime necessitatibus aliquam. Repudiandae architecto at corporis voluptate consequuntur porro?</p>
+        </div>
+        <div class="card" id="card2">
+          <h2>Card 2</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione nostrum nobis quasi atque quas repellat, eveniet tenetur aut temporibus voluptatum vitae. Quod fugiat odio, a nemo non suscipit voluptatem dolor, ab vel atque maxime!</p>
+        </div>
+        <div class="card" id="card3">
+          <h2>Card 3</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos nobis incidunt, suscipit veniam possimus illum nesciunt quae, necessitatibus, distinctio ullam nam modi obcaecati a culpa aspernatur repellat tenetur impedit. Quidem blanditiis dolorem nemo libero.</p>
+        </div>
+    </div>
+</body>
+</html>
