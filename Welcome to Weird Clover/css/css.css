@@ -6,11 +6,30 @@ body{
     padding:0;
     box-sizing: border-box;
 } 
-.header{
-    display: block;
-    float: left;
-    flex-direction: row;
+.navbar-elements{
+  display: flex;
+  flex-wrap: nowrap;
+  /* padding: 23px; */
+  border: 2px solid black;
+  justify-content: center;
+  justify-content: space-around;
+  
 }
+.link{
+    padding: 18px 20px ;
+    margin: 20px;
+    border: 2px solid black;
+    
+}
+a{
+    text-decoration: none;
+    color:cornsilk;
+}
+.btn{
+    padding-left: 2px 2px;
+    margin-right:23px;
+}
+
 /*
 body{
     font-family: ;
