@@ -1,9 +1,17 @@
-/* *{
+body{
+    background-color: brown;
+}
+ *{
     margin: 0;
     padding:0;
     box-sizing: border-box;
+} 
+.header{
+    display: block;
+    float: left;
+    flex-direction: row;
 }
-
+/*
 body{
     font-family: ;
     font-weight: ;
@@ -24,6 +32,3 @@ body{
     position: relative;
     clip-path:  polygon();
 } */
-.navbar{
-    display: flex;
-}
