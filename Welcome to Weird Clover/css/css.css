@@ -10,7 +10,7 @@ body{
     font-family:'Lato', sans-serif ;
     font-weight: 400;
     font-size: 16px;
-    color: rgb(238, 238, 238);
+    color: rgb(15, 9, 9);
     /* padding: 30px; */
 }
 /* Header */
@@ -184,8 +184,12 @@ a{
    /* Anime section */
    
    .another-section{
-       border: 2px solid white;
-       background-image: url(/img/imgg5.jpg);
+       /* border: 2px solid white; */
+       background-image:  linear-gradient(
+        to right bottom, 
+        rgba(62, 197, 35, 0.301), 
+        rgba(212, 89, 17, 0.534)),
+        url(/img/imgg5.jpg);
        background-position: center;
        background-size: cover;
        background-repeat: no-repeat;
@@ -199,9 +203,10 @@ a{
    }
    .second-heading{
     /* border: 2px solid white; */
+    font-family:'Lato', sans-serif ; ;
     padding: 30px 20px; 
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
 
    }
 
@@ -213,13 +218,14 @@ a{
    .anime-section{
     /* border: 2px solid white; */
     display: flex;
-    padding: 68px 44px;
+    padding: 32px 44px;
     
     }
     
     .boxes{
       /* border: 4px solid white; */
       padding:28px 50px ;
+      
     }
 
     .anime-title{
@@ -230,12 +236,46 @@ a{
     }
 
     .box1{
-        border: 4px solid white;
-        background-image: url(/img/img2.jpg);
-        background-size: cover;
+        border: 2px solid white;
+        border-radius: 10px;
+        font-size: larger;
+        /* background-image: url(/img/img2.jpg);
+        background-size: cover; */
         padding: 40px 20px;
+        width: 250px;
+         height: 263px;
 
     }
+    
+    .naruto{
+     background-image: url(/img/img3.png);
+     background-size: cover;
+     background-position:center ;
+     box-shadow: -10px  -12px 4px black;
+    }
+
+    .clover{
+        background-image: url(/img/img5.png);
+        background-size: cover;
+        background-position:center ;
+        box-shadow: -10px  -12px 4px black;
+    }
+
+    .your-name{
+        color: black;
+        background-image: url(/img/img6.jpg);
+        background-size: cover;
+        background-position:center ;
+        box-shadow: -10px  -12px 4px black;
+    }
+
+    .bleach{
+        background-image: url(/img/imgg3.jpg);
+        background-size: cover;
+        background-position:center ;
+        box-shadow: -10px  -12px 4px black;
+    }
+
     .watch{
         /* border: 2px solid black; */
         text-align: center;
@@ -246,4 +286,36 @@ a{
         padding: 7px 9px;
         border-radius: 7px;
     }
+
+    /* IMAGE SECTION */
+
+    .image-section{
+        border: 10px solid white;
+        background-color: coral;
+        /* padding: 30px 30px; */
+    }
+     
+    .head-part{
+        border: 2px solid black;
+        padding: 23px 33px;
+        text-align: left;
+        text-decoration: underline;
+        font-size: 67px
+
+    }
+
+    .images{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: 2px solid black;
+        padding: 20px 20px;
+        /* justify-content: space-between; */
+    }
+    .img{
+        border: 2px solid black;
+        padding: 50px 30px;
+        width: 463px;
+        height: 275px;
+    }
+
 
