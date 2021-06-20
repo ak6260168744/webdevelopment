@@ -235,6 +235,10 @@ a{
         text-decoration: underline;
     }
 
+    .anime-title:hover{
+        color: white;
+    }
+
     .box1{
         border: 2px solid white;
         border-radius: 10px;
@@ -279,43 +283,215 @@ a{
     .watch{
         /* border: 2px solid black; */
         text-align: center;
-        padding: 1px 14px;
+        padding: 7px 16px;
     }
     .btn2{
+        background-color: darkorange;
+        color:white;
+        font-weight: 400;
         padding: 20px 20px;
         padding: 7px 9px;
         border-radius: 7px;
     }
+    .btn2:hover{
+        color: white;
+        font-weight: 500;
+        background-color: rgb(16, 169, 240);
+        transform: translateY(-3px);
+        box-shadow: 0 5px 10px rgba(0,0,0,2);
+    
+    }
+    .btn2:active{
+        transform: translateY(-1px);
+        }
+    
 
     /* IMAGE SECTION */
 
     .image-section{
-        border: 10px solid white;
-        background-color: coral;
+        /* border: 10px solid white; */
+        background-color:rgba(15, 3, 11, 0.644);
         /* padding: 30px 30px; */
     }
      
     .head-part{
-        border: 2px solid black;
+        /* border: 2px solid black; */
         padding: 23px 33px;
         text-align: left;
         text-decoration: underline;
-        font-size: 67px
+        font-size: 67px;
+        color: rgb(1, 13, 14);
 
     }
 
     .images{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        border: 2px solid black;
+        /* border: 2px solid black; */
         padding: 20px 20px;
         /* justify-content: space-between; */
     }
+    
     .img{
-        border: 2px solid black;
-        padding: 50px 30px;
-        width: 463px;
-        height: 275px;
+        /* border: 2px solid white; */
+        color: white;
+        padding: 113px 30px;
+        background-image: url(/img/imgg2.jpg);
+        background-position: center;
+        background-size: cover;
+        /* width: 463px;
+        height: 275px; */
+    }
+
+    .img:first-child{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        
+    }
+    
+
+    .first{
+        background-image: url(/img/img1.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .second{
+        background-image: url(/img/img2.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .third{
+        background-image: url(/img/img4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .fourth{
+        background-image: url(/img/imgg3.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .six{
+        background-image: url(/img/imgg5.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    .seven{
+            background-image: url(/img/img6.jpg);
+            background-position: center;
+            background-size: cover;
+        
+    }
+
+    .eight{
+        background-image: url(/img/imgg4.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+
+    
+
+    /* last section*/
+
+    .last-section{
+        /* border: 2px solid black; */
+        padding: 20px 20px;
+        background-image: url(/img/img3.png);
+        background-position: center;
+        background-size: cover;
+        opacity: 0.89;
+        color: white;
+        /* clip-path:  polygon(0 0 ,100% 0 ,100% 80% ,0 100%); */
+    }
+
+    .aboutme{
+        /* border: 2px solid black; */
+        padding: 20px 20px;
+        color: white;
+        font-weight: 700;
+        font-size: 28px;
+    }
+
+    .content{
+        /* border: 2px solid black; */
+        display: flex;
+        padding: 30px 30px;
+        /* justify-content: space-between; */
+    }
+
+    .content-1{
+        /* border: 2px solid black; */
+        /* display: flex; */
+        padding: 30px 30px;
+
+    }
+
+    .cont-head{
+        padding: 10px 12px;
+        color: white;
+        font-weight: 700;
+        font-size: 24px;
+        font-style: oblique;
+
+    }
+    
+    .cont-content{
+        padding: 10px 12px;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        font-style: oblique;
     }
 
 
+    .myphoto{
+        background-image: 
+        url(/img/img6.jpg);
+        background-position: center;
+        background-size: cover;
+        border-radius: 23px;
+        /* border:2px solid rgb(26, 23, 23); */
+        width: 276px;
+        height: 438px;
+        padding: 21px 171px
+    }
+
+    /* footer */
+
+.last{
+    background-color: black;
+    border: 2px solid black;
+    padding: 20px 23px ;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.inside-footer{
+    display: flex;
+    padding: 20px 20px;
+    border: 2px solid black;
+    justify-content: center;
+}
+
+.address{
+    border: 2px solid black;
+    padding: 20px 23px;
+}
+
+.numb{
+    border: 2px solid black;
+    padding: 20px 23px;
+}
+
+.thanks{
+    border: 2px solid black;
+    padding: 20px 23px;
+    text-align:center ;
+}
