@@ -27,6 +27,12 @@ body{
     position: relative;
     /* clip-path:  polygon(0 0 ,100% 0 ,100% 80% ,0 100%); */
 }
+.fa{
+    position: absolute;
+    top: 2px;
+    left: 82px;
+    color: lightslategrey
+}
 .navbar-elements{
   background-color: rgba(2, 15, 2, 0.2);
   display: flex;
