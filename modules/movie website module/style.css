@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    border:2px solid black;
+    display:flex;
+    margin: 10px;
+}
+
+.logo{
+    font-size: 35px;
+border: 2px solid black;
+margin-left: 88px;
+    
+}
+
+.header-btn{
+    border: 2px solid black;
+    font-size: larger;
+    margin-left: 950px;
+    padding: 11px 34px;
+    border-radius: 20px;
+}
