@@ -12,13 +12,25 @@
 <body>
     <div class="product">
         <div class="product-small-img">
-            <img src="/modules/image gallary/imq1.PNG" alt="">
-            <img src="/modules/image gallary/imq2.PNG" alt="">
-            <img src="/modules/image gallary/imq3.PNG" alt="">
-            <img src="/modules/image gallary/imq4.PNG" alt="">
-            <img src="/modules/image gallary/imq5.PNG" alt="">
+            <img src="/modules/image gallary/imq1.PNG" onclick="myFunction(this)">
+            <img src="/modules/image gallary/imq2.PNG" onclick="myFunction(this)">
+            <img src="/modules/image gallary/imq3.PNG" onclick="myFunction(this)">
+            <img src="/modules/image gallary/imq4.PNG" onclick="myFunction(this)">
+            <img src="/modules/image gallary/imq2.PNG" onclick="myFunction(this)">
+
         </div>
+
+        <div class="img-container">
+            <img id="imageBox" src="/modules/image gallary/imq1.PNG">
+        </div>
+
     </div>
+    <script>
+        function myFunction(smallImg) {
+            var fullImg = document.getElementById("imageBox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
 </body>
 
 </html>
