@@ -14,6 +14,7 @@ body{
     /* border:2px solid black; */
     display:flex;
     margin-top: 17px;
+    
 }
 
 .header-logo{
@@ -21,7 +22,7 @@ body{
     color: rgba(255, 255, 255, 0.699);
     font-size: 30px;
 /* border: 2px solid black; */
-margin-left: 88px;
+margin-left: 144px;
     
 }
 .bx{
@@ -34,77 +35,139 @@ padding: 0 3px;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.555);
     font-size: 18px;
-    margin-left: 900px;
+    margin-left: 792px;
     padding: 12px 19px;
     border-radius: 50px;
 }
 
 .header-btn:hover{
     color: white;
-    background-color: rgba(184, 8, 105, 0.671);
+    background-color: rgba(184, 8, 105, 0.87);
 
 }
 
 .anime{
     color:white;
-    border: 2px solid white;
+    /* border: 2px solid white; */
     /* line-height: 30px; */
     display: flex;
     justify-content: space-between;
-    padding: 99px 131px;
+    padding: 100px 186px;
     
 }
 
 .anime-content{
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    padding: 2px 2px;
 }
 
 .anime-name{
-    border: 2px solid white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 2px 3px;
+    /* border: 2px solid white; */
+   
 }
 
 .anime-details{
-    border: 2px solid white;
- margin: 4px;
+    font-family:cursive;
+    margin: 4px;
+    padding: 2px 3px;
+    /* border: 2px solid white; */
+
 }
 
 .anime-cast{
-    border: 2px solid white;
+
+    /* border: 2px solid white; */
+    font: caption;
+    padding: 6px 7px;
 }
 
 .cast-section img{
-    border: 2px solid white;
-    width:20px;
-    height: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.616);
+    width: 40px;
+    height: 40px;
+    padding: 4px 7px;
 }
 
 .anime-buttons{
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    padding: 24px 25px;
+   
 }
 
 .anime-btn{
-    background-color: rgba(184, 8, 105, 0.315);
+    background-color: rgba(184, 8, 105, 0.596);
     /* border: 2px solid black; */
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.555);
     font-size: 18px;
-     /* padding: 12px 19px; */
+     padding: 10px 15px;
     border-radius: 50px;
+    margin: 0px 2px;
+    position: relative;
+    left: -17px;
+}
+#download{
+    border: 3px solid rgba(255, 255, 255, 0.486);
+    padding: 8px 13px;
+    background-color:rgba(255, 255, 255, 0);
+}
+.bx-caret-right{
+    font-size: 15px;
+    
+}
+
+#download:hover{
+    border: 3px solid white ;
 }
 
 .anime-btn:hover{
     color: white;
-    background-color: rgba(184, 8, 105, 0.671);
+    background-color: rgb(184, 8, 105);
 
 }
 
 .anime-photo{
-    border: 2px solid white;
+    /* border: 2px solid white; */
+    margin: -41px 202px;
+    
 }
 
 .anime-photo img{
-    width: 243px;
-    height: 310px;
-    margin: -33px -504px;
+    width: 225px;
+    height: 314px;
+    box-shadow: -6px -11px 22px black;
+    
 }
+
+.popular-anime{
+    /* border:2px solid white; */
+    color: white;
+    margin-top: -78px;
+}
+.popular-anime-head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    /* border: 2px solid white; */
+    padding: 4px 185px;
+}
+.anime-wallpaper{
+    /* border: 2px solid white; */
+display: flex;
+justify-content:  space-evenly ;
+padding: 21px 145px;
+
+
+}
+
+.wallpapers img{
+    width: 158px;
+    height: 183px;
+    box-shadow: -6px -11px 22px black;
+}
+
+.wallpapers img:hover{
+    transform: translateY(-4px);
+}
+
