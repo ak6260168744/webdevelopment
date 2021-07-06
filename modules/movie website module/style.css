@@ -24,7 +24,9 @@ body{
 margin-left: 88px;
     
 }
-
+.bx{
+padding: 0 3px;
+}
 .header-btn{
     background-color: rgba(184, 8, 105, 0.315);
     /* border: 2px solid black; */
@@ -33,7 +35,7 @@ margin-left: 88px;
     color: rgba(255, 255, 255, 0.555);
     font-size: 18px;
     margin-left: 900px;
-    padding: 12px 27px;
+    padding: 12px 19px;
     border-radius: 50px;
 }
 
@@ -43,6 +45,66 @@ margin-left: 88px;
 
 }
 
-.movie-detail{
+.anime{
+    color:white;
+    border: 2px solid white;
+    /* line-height: 30px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 99px 131px;
     
+}
+
+.anime-content{
+    border: 2px solid white;
+}
+
+.anime-name{
+    border: 2px solid white;
+}
+
+.anime-details{
+    border: 2px solid white;
+ margin: 4px;
+}
+
+.anime-cast{
+    border: 2px solid white;
+}
+
+.cast-section img{
+    border: 2px solid white;
+    width:20px;
+    height: 20px;
+}
+
+.anime-buttons{
+    border: 2px solid white;
+}
+
+.anime-btn{
+    background-color: rgba(184, 8, 105, 0.315);
+    /* border: 2px solid black; */
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.555);
+    font-size: 18px;
+     /* padding: 12px 19px; */
+    border-radius: 50px;
+}
+
+.anime-btn:hover{
+    color: white;
+    background-color: rgba(184, 8, 105, 0.671);
+
+}
+
+.anime-photo{
+    border: 2px solid white;
+}
+
+.anime-photo img{
+    width: 243px;
+    height: 310px;
+    margin: -33px -504px;
 }
