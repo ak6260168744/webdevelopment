@@ -2,3 +2,88 @@
     margin: 0;
     padding: 0;
 }
+a{
+text-decoration: none;
+}
+
+body{
+/* min-height: 100vh; */
+background: url(/modules/protfolio/bg.jpg) no-repeat;
+background-size: cover;
+}
+
+.portfolio-main{
+    min-height: 100vh;
+    background: linear-gradient(
+        153.28deg,
+        rgba(255,255,255,0.4)1.19%,
+        rgba(255,255,255,0)100%
+        
+    );
+    backdrop-filter: blur(42px);
+}
+
+.container{
+    /* width: 100%; */
+    padding: 0 200px;
+}
+
+/* NAVBAR */
+
+header{
+    padding-top:35px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-bar ul{
+    padding: 0;
+    max-width: 0;
+    display: inline;
+    
+}
+
+.navigation-bar ul li {
+   list-style: none;
+   display:inline-block;
+   margin: 0 25px;
+}
+
+.navigation-bar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color:#292423;
+    text-transform: capitalize;
+    transition: all 0.3s;
+
+}
+
+.navigation-bar ul li a:hover{
+    opacity: 0.5;
+}
+
+.navigation-bar ul li.hire-btn{
+    margin-left: 125px !important;
+}
+
+.navigation-bar ul li.hire-btn a{
+    padding: 10px 32px;
+    background: #fff;
+    border-radius:50px;
+    font-weight: 500;
+}
+
+.navigation-bar ul li.hire-btn a:hover{
+background: #292423;
+color:#fff;
+opacity: 1;
+
+}
+
+
