@@ -138,5 +138,69 @@ align-items: center;
      border-radius: 50px;
      color:#fff;
      font-size: 16px;
+     line-height: 22px;
+     font-weight: 500;
+     text-transform: capitalize;
+     margin-bottom: 35px;
+     box-shadow:0 15px 40px rgba(0,0,0,0.2) ;
+     transition: all 0.3s;
+}
+
+.btn-main:hover{
+    background: #fff;
+    color: #292929;
+}
+
+.btn-main span{
+ display: inline-block;
+ width: 19px;
+ height: 19px;
+ background: #3534;
+ border-radius:50px;
+ margin: 0 0 0 12px;
+ transition: all 0.3s;
+ text-align: center;
+}
+
+.btn-main span img{
+    margin: 0 0 7px 0;;
+}
+
+.btn-main:hover span {
+    background: #ccc;
+}
+
+/* experience section */
+
+.experience-section{
+    width:100%;
+    padding: 40px 40px;
+    background: rgba(255,255,255,0.2);
+    backdrop-filter: blur(42px);
+    border-radius: 10px;
+}
+
+.experience-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.experience-inner .col h3{
+font-size: 25px;
+color: #292929;
+font-weight: 700;
+margin-bottom: 5px;
 
 }
+
+.experience-inner .col p{
+    font-synthesis: 16px;
+    color: #292929;
+    font-weight:300;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+
+/* 17:24 Responsive Portfolio Website using HTML CSS & JavaScript */
+
