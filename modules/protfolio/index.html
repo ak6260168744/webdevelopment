@@ -19,6 +19,16 @@
                     <div class="logo">
                         <a href="#"><img src="/modules/protfolio/logo.svg" alt="logo"></a>
                     </div>
+
+                    <!-- toggle bar -->
+
+                    <div class="toggle-bar">
+                        <span> </span>
+                        <span> </span>
+                        <span> </span>
+                    </div>
+
+
                     <div class="navigation-bar">
                         <ul>
                             <li><a href="#">About</a></li>
@@ -80,6 +90,11 @@
         </div>
     </div>
 </body>
-<script src=""></script>
+<script>
+    $('.toggle-bar').on('click', function (event) {
+        $('this').toggleClass('open');
+        $('.navigation-bar').slideToggle('300');
+    })
+</script>
 
 </html>

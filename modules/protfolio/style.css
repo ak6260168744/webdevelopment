@@ -202,5 +202,142 @@ margin-bottom: 5px;
     text-transform: capitalize;
 }
 
-/* 17:24 Responsive Portfolio Website using HTML CSS & JavaScript */
+@media(max-width:768px){
+    header{
+        padding-top: 15px;
+    }
+    
+    .container{
+        padding:0 20px;
 
+    }
+    .main-content-wrapper{
+        margin-top: 50px;
+        height: auto;
+        flex-direction:column-reverse;
+    }
+
+    .portfolio-main{
+        height: auto;
+    }
+
+    .col-left{
+        margin-top: 50px;
+    }
+
+    .col-left span{
+        font-size: 16px;
+        line-height: normal;
+    }
+
+    .col-left h1{
+        font-size: 30px;
+    }
+
+    .col-left p{
+       width: 100%;
+    }
+
+    .btn-main span img{
+        margin: 0 0 4px 0;
+    }
+
+    .experience-section{
+        margin-top: 50px;
+        
+        padding: 0;
+        background: transparent;
+    }
+
+    .experience-inner{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .experience-inner .col{
+        width: 100%;
+        padding: 40px 40px;
+        background: rgba(255,255,255,0.2);
+        backdrop-filter: blur(42px);
+        border-radius: 10px;
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) and (max-width: 1200px){
+    .container{
+        padding: 0 60px;
+    }
+}
+
+
+/* toggle bar */
+
+.toggle-bar{
+    position: relative;
+    display: block;
+    width:30px;
+    height:30px;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+.toggle-bar span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: #292423;
+    border-radius: 5px;
+    margin-bottom: 4px;
+}
+
+@media( min-width:1200px ){
+    .toggle-bar{
+        display: none;  
+    }
+}
+
+@media( max-width:1200px )
+{
+    .navigation-bar{
+        display: none;
+    }
+
+.navigation-bar{
+    position: absolute;
+    top:  70px;
+    left:0;
+    right: 0;
+    width: 90%;
+    margin: auto;
+    background: rgba(255, 255, 255,0.2);
+    backdrop-filter:blur(42px) ;
+    border-radius: 10px;
+    z-index: 2;
+    text-align: center;
+
+}
+.navigation-bar ul{
+    padding: 10px 0 20px ;
+    
+    
+}
+.navigation-bar ul li{
+    padding: 10px 30px ;
+    display: block;
+    margin: 0;
+    text-align: center;
+    
+}
+
+.navigation-bar ul li.hire-btn {
+    margin-left: 0 !important;
+}
+
+.navigation-bar ul li.hire-btn a{
+   background: #292423;
+   color: white;
+}
+
+}
+    
