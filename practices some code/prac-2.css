@@ -1,0 +1,59 @@
+.box{
+ border: 2px solid black;
+ width: 120px;
+ border-radius: 50%;
+ /* height: 100px; */
+ background-color: rgb(36, 89, 187);
+}
+
+.box:hover{
+    animation-name: moveball;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+}
+
+@keyframes moveball{
+    to{
+          transform: translateX(0);
+    }
+
+    from{
+        transform: translateX(300px);
+    }
+}
+
+
+
+.box p{
+    /* border: 2px solid black; */
+    margin: 0;
+    width: 119px;
+    height: 120px;
+    border-radius: 50%;
+    text-align:center;
+    background-color: rgb(36, 89, 187);
+    color: whitesmoke;
+ 
+}
+
+.box p:hover{
+    animation-name: rotateball;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 10;
+    animation-timing-function: ease-out;
+    animation-direction: reverse;
+}
+
+@keyframes rotateball{
+    to{
+          transform: rotate(0);
+    }
+
+    from{
+        transform: rotate(360deg);
+    }
+}
