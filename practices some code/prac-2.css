@@ -4,9 +4,13 @@
  border-radius: 50%;
  /* height: 100px; */
  background-color: rgb(36, 89, 187);
+ transition: width 5s, height 5s;
+    transition-delay:2s ;
 }
 
 .box:hover{
+    width: 300px;
+    height: 300px;
     animation-name: moveball;
     animation-duration: 5s;
     animation-delay: 2s;
@@ -36,10 +40,14 @@
     text-align:center;
     background-color: rgb(36, 89, 187);
     color: whitesmoke;
+    transition: width 5s, height 5s, transform 4s;
+    transition-delay:2s ;
  
 }
 
 .box p:hover{
+    width: 300px;
+    height: 300px;
     animation-name: rotateball;
     animation-duration: 5s;
     animation-delay: 2s;
