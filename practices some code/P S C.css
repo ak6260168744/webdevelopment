@@ -1,0 +1,67 @@
+.big{
+    display: flex;
+    margin-left: 20px;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   /* border: 2px solid black; */
+   width: 250px;
+   box-shadow: 2px 2px 10px  black;
+   margin-left: 100px;
+    
+}
+
+#wallpaper{
+    font-size: 100px;
+    font-weight: 550;
+    color: white;
+    background-color: rgb(10, 189, 212);
+    text-align: center;
+    width: 250px;
+    height: 180px;
+    
+}
+#wallpaper p{
+    position: relative;
+    top: -50px;
+}
+
+#text{
+    font-size: 20px;
+    background: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+}
+
+#wallpaper-1{
+    font-size: 100px;
+    font-weight: 550;
+    color: white;
+    background:url(/img/img5.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    width: 250px;
+    height: 180px;
+    
+}
+
+#wallpaper-1 p{
+    position: relative;
+    top: -50px;
+}
+
+#text-1{
+    font-size: 20px;
+    background: white;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 250px;
+    height: 70px;
+    text-align: center;
+}
