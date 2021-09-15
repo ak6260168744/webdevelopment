@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medix Hospital</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="navbar">
+
+        <!-- nav-2 ------------------------------------------------------------------- -->
+        <nav class="nav-1">
+            <div class="call-email">
+               <div class="phone">
+                   <div class="phone-icon"><i class="fa fa-phone" ></i></div>
+                   <div class="phone-num">(00) 000 111 222</div>
+                </div>
+               <div class="slash">|</div>
+               
+               <div class="email-1">
+                  <div class="email-1-icon"><i class="fa fa-envelope" ></i></div>
+                  <div class="email-address">info@somedomain.com</div>
+               </div>
+            </div>
+
+            <div class="social-media-icons">
+                <div class="twitter social-m"><i class="fa fa-twitter" ></i></div>
+                <div class="facebook social-m"><i class="fa fa-facebook-square" ></i></div>
+                <div class="gmail social-m"><i class="fa fa-google-plus" ></i></div>
+                <div class="insta social-m"><i class="fa fa-instagram" ></i></div>
+            </div>
+           
+        </nav>
+
+        <!-- NAV-2------------------------------------------------------------------------------------ -->
+
+        <nav class="nav-2">
+          <div class="logo"><i class="fa fa-home" ></i>medix</div>
+          <div class="navbar-guide">
+              <div class="guide-option"><a href="#">home</a><i class="fa fa-caret-down" ></i></div>
+              <div class="guide-option"><a href="#">about</a></div>
+              <div class="guide-option"><a href="#">blog</a></div>
+              <div class="guide-option"><a href="#">collection</a></div>
+              <div class="guide-option"><a href="#">shop</a><i class="fa fa-caret-down" ></i></div>
+              <div class="guide-option"><a href="#">contact us</a><i class="fa fa-caret-down" ></i></div>
+          </div>
+          <div class="nav-icons">
+              <div class="wishlist-icon"><i class="fa fa-heart" ></i></div>
+              <div class="user-icon"><i class="fa fa-user"></i></div>
+              <div class="shopping-cart-icon"><i class="fa fa-shopping-cart"></i></div>
+          </div>
+          <div></div>
+        </nav>
+    </header>
+
+    <!-- section-1----------------------------------------------------------------------------------------- -->
+    <section class="section-1">
+      <div class="text">
+        <p style="font-size: 34px; font-weight: bolder;">contact us</p>
+      <p><a href="#">home</a> / <a href="#">contact us</a></p>
+    </div>
+
+<div id="googleMap" style="width:100%; height:450px;"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(28.7041, 77.1025),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAH2eX1Bj7PbkqQ_wU61Ns1jgvxOlnD_ak&callback=myMap"></script>
+    </section> 
+    
+    <!-- section-2----------------------------------------------------------------------------------------- -->
+    <section class="section-2">
+        
+        <!-- section-2-left------------------------------------------------------------- -->
+        <div class="section-2-left sect">
+        
+            <h1 style="font-size: 30px; font-weight:bolder; color: black; text-transform: capitalize;">Contact info</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores. Lorem ipsum dolor</br> sit amet, 
+            consectetur adipisicing elit. Sunt, necessitatibus!</p>
+         
+            <div class="phone-msg-card">
+         
+                <div class="card phone-card">
+         
+                       <div class="phone-icon-2 set-circle">
+                          <i class="fa fa-phone" ></i>  
+                      </div>
+          
+          
+                       <div class="card-title">
+                          <h1>talk to us</h1>
+                       </div>
+          
+                    <div  class="card-text">
+                       <p>toll free 0803-080-3081</p>
+                        <p>0803-080-3081</p>
+                    </div>
+                </div>    
+            
+
+              <div class="card email-card">
+                     
+                    <div class="email-icon-2">
+                        <i class="fa fa-envelope" ></i>
+                     </div>
+
+                    <div class="card-title">
+                     <h1>contact us</h1>
+                    </div>
+
+                  <div  class="card-text">
+                     <p>domainname@example.com</p>
+                     <p>support@example.com</p>
+                  </div>
+             </div>
+
+            </div>
+        
+         <div class="location-time-card">
+                <div class="card location-card">
+                    <div class="location-icon">
+                        <i class="fa fa-map-marker" ></i>
+                    </div>
+                   <div class="card-title">
+                      <h1>our location</h1>
+                   </div>
+                   <div  class="card-text">
+                      <p>625 @ David Blake Road,</p>
+                      <p>Adventureland,USA</p>
+                  </div>
+              </div> 
+
+                <div class="card time-card">
+                    <div class="time-icon">
+                        <i class="fa fa-clock-o" ></i>
+                    </div>
+                   <div class="card-title">
+                      <h1>opening hours</h1>
+                   </div>
+                   <div class="card-text">
+                       <p>domainname@example.com</p>
+                       <p>support@example.com</p>
+                  </div>
+                </div>
+           </div>
+        </div>
+
+        <!--  section-2-right------------------------------------------------------------->
+
+        <div class="section-2-right sect">
+            <h1 style="font-size: 30px; font-weight:bolder; color: black; text-transform: capitalize;">Enquire now</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, maiores. Lorem ipsum dolor</br>sit amet, 
+            consectetur adipisicing elit. Sunt, necessitatibus!</p>
+
+          <div class="details-client">
+           
+            <div class="forms">
+            <form action="/html/action_pag.php">
+            <input type="text" id="fname" name="fname" value="Name"><br>
+            <input type="email" id="user-email" name="user-email" value="Email"><br>
+            <input type="text" id="subject" name="subject" value="Subject"><br>
+            <input type="text" id="message-area" name="message-area" value="Message"><br>
+           </form>
+        </div>
+        <div class="enquire-button"><a href="#">Send Enquiry</a></div>
+</div>
+        </div>
+
+    </section>
+
+    <!-- footer-------------------------------------------------------- -->
+    <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 col-md-6">
+              <h1><i class="fa fa-home" ></i>Medix</h1>
+              <div class="text-justify"> 
+              <address style="margin-left: 22px;"><i class="fa fa-home" style="font-size: 16px; color: white; margin-right: 13px;" ></i>No. 58 a, East Madison Street,</br>
+                  <span style="margin-left: 30px;">Baltimore ,MD,USA 4508</span></address>
+              <phone style="margin-left: 22px;"><i class="fa fa-phone" style="font-size: 16px; color: white; margin-right: 13px;" ></i>+91 123456780<phone/>
+
+                <p style="margin-right: 71px;"><i class="fa fa-envelope" style="font-size: 16px; color: white; margin-right: 13px;" ></i>support@somemail.com</p>
+
+                  <div class="col-md-4 col-sm-6 col-xs-12">
+                    <ul class="social-icons">
+                      <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                      <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                      <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                      <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+                    </ul>
+                  </div>
+              </div>
+              
+            </div>
+            
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Help</h6>
+              <ul class="footer-links">
+                <li><a href="#">scissors</a></li>
+                <li><a href="#">glucometer</a></li>
+                <li><a href="#">disposable gloves</a></li>
+                <li><a href="#">cleaning scissors</a></li>
+                <li><a href="#">smart mask</a></li>
+              </ul>
+            </div>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Support</h6>
+              <ul class="footer-links">
+                <li><a href="#">plaster machine</a></li>
+                <li><a href="#">pedometer</a></li>
+                <li><a href="#">cleaning scissors</a></li>
+                <li><a href="#">smart mask</a></li>
+                <li><a href="#">pedometer</a></li>
+              </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3">
+                <h6>Informatin</h6>
+                <ul class="footer-links">
+                  <li><a href="#">scissors</a></li>
+                  <li><a href="#">glucometer</a></li>
+                  <li><a href="#">disposable gloves</a></li>
+                  <li><a href="#">cleaning scissors</a></li>
+                  <li><a href="#">smart mask</a></li>
+                </ul>
+              </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 copyright-text">
+              <p>Copyright &copy;Powered by 
+           <a href="#">Designthemes</a>.
+              </p>
+            </div>
+  
+            
+          </div>
+        </div>
+  </footer>
+
+
+
+</body>
+</html>

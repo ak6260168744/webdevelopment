@@ -1,0 +1,25 @@
+p{
+    color:brown;
+}
+.fa{
+    color: darkgreen;
+    font-size: 48px;
+}
+
+.fa:hover{
+    color:crimson;
+
+}
+
+.iconss{
+    background-color: rgb(0, 119, 255);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.fa-map-marker{
+    color: black;
+    margin: 6px 12px;
+    font-size: 28px;
+}
