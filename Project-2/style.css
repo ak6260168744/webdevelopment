@@ -1,216 +1,200 @@
 /* css Reset */
-*{
-    margin: 0;
-    padding: 0;;
+* {
+  margin: 0;
+  padding: 0;
 }
 
 /* CSS Variable */
-:root{
-    --navbar-height:59px;
+:root {
+  --navbar-height: 59px;
 }
 /* Navigation Bar  */
-#navbar{ 
-    position: absolute;
-    display: flex;
-    align-items: center;
-    font-family: 'Yatra One', cursive;
+#navbar {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  font-family: "Yatra One", cursive;
 }
- /* Navigation Bar: Logo and Image  */
-  #logo{
- 
-    margin: 10px 34px;
-  }
-  #logo img{
-    height: 59px;
-    margin: 3px 6px
-  }
+/* Navigation Bar: Logo and Image  */
+#logo {
+  margin: 10px 34px;
+}
+#logo img {
+  height: 59px;
+  margin: 3px 6px;
+}
 
- /* Navigation Bar: List Styling */
- #navbar ul{
-     display:flex;
- }
- #navbar::before{
-      content: "";
-      background-color: black;
-      position:absolute;
-      top:0px;
-      left:0px;
-      height: 100%;
-      width:100%;
-      z-index:-1;
-      opacity: 0.4;
+/* Navigation Bar: List Styling */
+#navbar ul {
+  display: flex;
 }
- #navbar ul li {
-     /* color: white; */
-    list-style: none;
-    font-size: 1.3rem;
+#navbar::before {
+  content: "";
+  background-color: black;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.4;
 }
-#navbar ul li a{
-    color:white;
-    display:block;
-    padding: 3px 22px;
-    border-radius: 14px;
-    text-decoration: none;
+#navbar ul li {
+  /* color: white; */
+  list-style: none;
+  font-size: 1.3rem;
 }
-#navbar ul li a:hover{
-    color:black;
-    background-color: white;
+#navbar ul li a {
+  color: white;
+  display: block;
+  padding: 3px 22px;
+  border-radius: 14px;
+  text-decoration: none;
+}
+#navbar ul li a:hover {
+  color: black;
+  background-color: white;
 }
 
 /* Home section */
-#home::before{ 
-    content: "";
-    position: absolute;
-    background: url('../bg1.jpg') no-repeat center center/cover;
-    height: 642px;
-    top:0px;
-    left:0px;
-    width: 100%;
-    z-index: -1;
-    opacity:0.89;
+#home::before {
+  content: "";
+  position: absolute;
+  background: url("./bg1.jpg") no-repeat center center/cover;
+  height: 642px;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.89;
 }
 
-
-#home{
-    display: flex;
-    flex-direction: column;
-    padding:48px 200px;
-    height: 550px;
-    justify-content: center;
-    align-items: center;
+#home {
+  display: flex;
+  flex-direction: column;
+  padding: 48px 200px;
+  height: 550px;
+  justify-content: center;
+  align-items: center;
 }
-#home h1{
-    color:white;
-    text-align: center;
-    font-family: 'Yatra One', cursive;
+#home h1 {
+  color: white;
+  text-align: center;
+  font-family: "Yatra One", cursive;
 }
-#home p{
-    color:white;
-    text-align: center;
-    font-size: 1.5rem;
-    font-family: 'Yatra One', cursive;
+#home p {
+  color: white;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Yatra One", cursive;
 }
 /* services-container */
-#services{
-    margin: 34px;
-    display: flex;
+#services {
+  margin: 34px;
+  display: flex;
 }
-#services .box{
-    border:2px solid brown;
-    padding:34px;
-    margin:3px 6px;
-    border-radius: 28px;
-    background: #f2f2f2;
-    /* width: 316px; */
-}
-
-#services .box img{
-    height: 160px;
-    display: block;
-    margin: auto;
-    /* border: 2px solid brown; */
+#services .box {
+  border: 2px solid brown;
+  padding: 34px;
+  margin: 3px 6px;
+  border-radius: 28px;
+  background: #f2f2f2;
+  /* width: 316px; */
 }
 
-#services .box p{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+#services .box img {
+  height: 160px;
+  display: block;
+  margin: auto;
+  /* border: 2px solid brown; */
+}
 
-
+#services .box p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 /* client section */
- #client-section{
-     height: 344px;
-
- }
- #client-section::before{
-    content:"";
-    position:absolute;
-    background: url('/bg.jpg');
-    width: 100%;
-    height: 40%;
-    z-index: -1;
-    opacity: 0.4;
-
+#client-section {
+  height: 344px;
 }
- .client{
-     display:flex;
-     justify-content: center;
-     align-items: center;
-     
-
+#client-section::before {
+  content: "";
+  position: absolute;
+  background: url("/bg.jpg");
+  width: 100%;
+  height: 40%;
+  z-index: -1;
+  opacity: 0.4;
 }
-.client-item{
-    padding: 34px;
+.client {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.client  img{
- 
-    height:124px;
-    
-
+.client-item {
+  padding: 34px;
+}
+.client img {
+  height: 124px;
 }
 /* contact section */
 
-#contact{
-   position: relative;
+#contact {
+  position: relative;
 }
-#contact::before{
-    content: "";
-    position:absolute;
-    top: -55px;
-    width: 100%;
-    height: 131%;
-    z-index: -1;
-    opacity: 0.7;
-    background: url('/contact.jpg') center ;
-   
+#contact::before {
+  content: "";
+  position: absolute;
+  top: -55px;
+  width: 100%;
+  height: 131%;
+  z-index: -1;
+  opacity: 0.7;
+  background: url("/contact.jpg") center;
 }
-#contact-box input, 
-#contact-box textarea{
-    width: 100%;
-    padding: 0.5rem;
-    border-radius: 9px;
-    font-size: 1.1rem;
-} 
-
-#contact-box form{
-    width: 40%;
+#contact-box input,
+#contact-box textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 9px;
+  font-size: 1.1rem;
 }
 
-#contact-box label{
-   font-size: 1.3rem;
-   font-family: 'Bree Serif', serif;
-
+#contact-box form {
+  width: 40%;
 }
 
+#contact-box label {
+  font-size: 1.3rem;
+  font-family: "Bree Serif", serif;
+}
 
-
-footer{
-    background: black;
-    color: white;
-    padding: 2px;
+footer {
+  background: black;
+  color: white;
+  padding: 2px;
 }
 
 /* utility classes */
-.h-primary{
-    font-size: 3.8rem;
-    padding: 12px;
+.h-primary {
+  font-size: 3.8rem;
+  padding: 12px;
 }
-.h-secondary{
-     font-size: 2.3rem;
-     padding:12px;
+.h-secondary {
+  font-size: 2.3rem;
+  padding: 12px;
 }
-.btn{
-    padding:6px 20px;
-    border:2px solid white;
-    background-color: brown;
-    margin: 15px;
-    font-size: 1.5rem;
-    border-radius: 10px;
-    cursor: pointer;
-}
-
-
-.center{
-    text-align: center;
+.btn {
+  padding: 6px 20px;
+  border: 2px solid white;
+  background-color: brown;
+  margin: 15px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
+.center {
+  text-align: center;
+}
